@@ -1,37 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+# Next.js Demo Playground
+
+This project showcases various features and libraries commonly used in modern React applications. It includes examples of common React Hooks, form handling and validation with Yup and React Hook Form, data fetching with TanStack Query, interactions with Strapi via GraphQL, pagination, Tailwind CSS for styling, Framer Motion and Anime.js for animations. This playground uses Bun as the JavaScript runtime.
+
+**Note:** This is a demo playground, so image optimization, SEO, and SSR are not taken into consideration.
+
+## Features
+
+- **React Hooks**: Examples of useState, useEffect, useContext, useReducer, and more.
+- **Form Handling and Validation**: Form entry and submission with React Hook Form and validation using Yup.
+- **Data Fetching**: Use TanStack Query for efficient data fetching and caching.
+- **Strapi with GraphQL**: Interact with a Strapi backend using GraphQL.
+- **Pagination**: Demonstrate pagination with API data.
+- **Styling**: Styled with Tailwind CSS for utility-first CSS.
+- **Animations**: Implement animations with Framer Motion and Anime.js.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- [Bun](https://bun.sh) - The JavaScript runtime used for this project.
+- Node.js and npm/yarn - For package management and development.
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Edcursion-DavidN/Next-JS-Demo-Playground.git
+   cd nextjs-demo-playground
+   ```
+
+2. Install the dependencies:
+
+   ```bash
+   bun install
+   ```
+
+### Running the Development Server
+
+Start the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to see the application running.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Key Libraries and Tools
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Next.js**: The React framework for production.
+- **React Hook Form**: Easy-to-use form handling library.
+- **Yup**: Schema validation library.
+- **TanStack Query**: Powerful data fetching and caching library.
+- **Strapi**: Headless CMS used for the backend.
+- **GraphQL**: Query language for APIs.
+- **Tailwind CSS**: Utility-first CSS framework.
+- **Framer Motion**: Library for animations and gestures.
+- **Anime.js**: Lightweight JavaScript animation library.
+- **Next UI**: An Awesome Feature Packed React UI Library.
+  
+## Contributing
 
-## Learn More
+Contributions are welcome! Please feel free to submit a Pull Request or open an Issue if you find a bug or have a feature request.
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is licensed under the MIT License.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# Next-JS-Demo-Playground
+---
